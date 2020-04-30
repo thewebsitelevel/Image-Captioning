@@ -217,6 +217,6 @@ If you are using a virtualenv, you may want to avoid using sudo:
 # How To Run?
 In the terminal run the following snippet of code.
 ```
-   python3 app.py
+   $ python3 app.py
 ```
 app.py is the main file to host the local server
