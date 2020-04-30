@@ -24,18 +24,43 @@ Deep learning architectures such as deep neural networks, deep belief networks, 
 ### Definition
 Deep learning is a class of machine learning algorithms that uses multiple layers to progressively extract higher level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits or letters or faces.
 
-[For further information refer click here !!! ](https://towardsdatascience.com/introducing-deep-learning-and-neural-networks-deep-learning-for-rookies-1-bd68f9cf5883)
+[For further information click here !!! ](https://towardsdatascience.com/introducing-deep-learning-and-neural-networks-deep-learning-for-rookies-1-bd68f9cf5883)
 
 ## Convolutional Neural Network
 **Convolutional Neural Networks** are very similar to ordinary Neural Networks from the previous chapter: they are made up of neurons that have learnable weights and biases. Each neuron receives some inputs, performs a dot product and optionally follows it with a non-linearity. The whole network still expresses a single differentiable score function: from the raw image pixels on one end to class scores at the other. And they still have a loss function (e.g. SVM/Softmax) on the last (fully-connected) layer and all the tips/tricks we developed for learning regular Neural Networks still apply.
 
 So what changes? ConvNet architectures make the explicit assumption that the inputs are images, which allows us to encode certain properties into the architecture. These then make the forward function more efficient to implement and vastly reduce the amount of parameters in the network.
 
-[For further information refer click here !!!](https://cs231n.github.io/convolutional-networks)
+[For further information click here !!!](https://cs231n.github.io/convolutional-networks)
 
 # Keras
 ![alt text](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png)
 
+**You have just found Keras.**
+
+Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
+
+Use Keras if you need a deep learning library that:
+
+  * Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
+  * Supports both convolutional networks and recurrent networks, as well as combinations of the two.
+  * Runs seamlessly on CPU and GPU.
+
+Read the documentation at[ Keras.io.](https://keras.io/)
+
+Keras is compatible with: **Python 2.7-3.6.**
+
+**Install Keras from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $sudo pip install keras
+```
+
+If you are using a virtualenv, you may want to avoid using sudo:
+
+```
+   $pip install keras
+```
 **_In this the application of CNN ResNet50 is used_**
 
 ## ResNet50
