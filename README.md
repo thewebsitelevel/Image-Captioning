@@ -94,75 +94,75 @@ If you are using a virtualenv, you may want to avoid using sudo:
 **Install numpy from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install numpy
+   $ sudo pip3 install numpy
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install numpy
+   $ pip3 install numpy
 ```
 
 # Pandas
 **Install pandas from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install pandas
+   $ sudo pip3 install pandas
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install pandas
+   $ pip3 install pandas
 ```
 
 # OS
 **Install OS from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install OS
+   $ sudo pip3 install OS
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install OS
+   $ pip3 install OS
 ```
 # Image
 **Install Image from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install pillow
+   $ sudo pip3 install pillow
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install pillow
+   $ pip3 install pillow
 ```
 # json
 **Install json from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install json
+   $ sudo pip3 install json
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install json
+   $ pip3 install json
 ```
 # nltk
 **Install pandas from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip3 install nltk
+   $ sudo pip3 install nltk
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip3 install nltk
+   $ pip3 install nltk
 ```
 
 **_In this the application of CNN - ResNet50 is used_**
@@ -203,7 +203,14 @@ Flask (source code) is a Python web framework built with a small core and easy-t
 Why is Flask a good web framework choice?
 Flask is considered more Pythonic than the Django web framework because in common situations the equivalent Flask web application is more explicit. Flask is also easy to get started with as a beginner because there is little boilerplate code for getting a simple app up and running.
 
-**How To Install?**
+**Install Flask from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $ sudo pip3 install flask
+```
+
+If you are using a virtualenv, you may want to avoid using sudo:
+
 ```
    $ pip3 install flask
 ```
