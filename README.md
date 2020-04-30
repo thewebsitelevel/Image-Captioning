@@ -9,7 +9,8 @@
  4. Numpy
  5. Pandas
  6. json
- 6. Flask
+ 7. Flask
+ 8. TensorFlow
 # Python
 The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
 ### How to install.
@@ -32,6 +33,31 @@ Deep learning is a class of machine learning algorithms that uses multiple layer
 So what changes? ConvNet architectures make the explicit assumption that the inputs are images, which allows us to encode certain properties into the architecture. These then make the forward function more efficient to implement and vastly reduce the amount of parameters in the network.
 
 [For further information click here !!!](https://cs231n.github.io/convolutional-networks)
+
+# TensorFlow
+The core open source library to help you develop and train ML models. Get started quickly by running Colab notebooks directly in your browser.
+[For further information click here !!!](https://www.tensorflow.org/)
+**Install TensorFlow2 : **
+
+**TensorFlow is tested and supported on the following 64-bit systems:**
+  * Python 3.5–3.7
+  * Ubuntu 16.04 or later
+  * Windows 7 or later
+  * macOS 10.12.6 (Sierra) or later (no GPU support)
+  * Raspbian 9.0 or later
+  
+**Download a package**
+```
+     # Requires the latest pip
+      pip install --upgrade pip
+
+      # Current stable release for CPU and GPU
+      pip install tensorflow
+
+      # Or try the preview build (unstable)
+      pip install tf-nightly
+```
+
 
 # Keras
 ![alt text](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png)
@@ -61,7 +87,34 @@ If you are using a virtualenv, you may want to avoid using sudo:
 ```
    $pip install keras
 ```
-**_In this the application of CNN ResNet50 is used_**
+# Numpy
+**Install numpy from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $sudo pip install numpy
+```
+
+If you are using a virtualenv, you may want to avoid using sudo:
+
+```
+   $pip install numpy
+```
+
+# Pandas
+**Install pandas from PyPI (recommended):**
+Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
+```
+   $sudo pip install pandas
+```
+
+If you are using a virtualenv, you may want to avoid using sudo:
+
+```
+   $pip install pandas
+```
+
+
+**_In this the application of CNN - ResNet50 is used_**
 
 ## ResNet50
 ResNet, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks. This model was the winner of ImageNet challenge in 2015. The fundamental breakthrough with ResNet was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNet training very deep neural networks was difficult due to the problem of vanishing gradients.
