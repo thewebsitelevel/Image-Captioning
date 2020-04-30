@@ -34,7 +34,8 @@ So what changes? ConvNet architectures make the explicit assumption that the inp
 
 [For further information click here !!!](https://cs231n.github.io/convolutional-networks)
 
-# TensorFlow
+# TensorFlow ![alt text](https://www.tensorflow.org/site-assets/images/project-logos/tensorflow-lite-logo-social.png)
+
 The core open source library to help you develop and train ML models. Get started quickly by running Colab notebooks directly in your browser.
 [For further information click here !!!](https://www.tensorflow.org/)
 **Install TensorFlow2 : **
@@ -48,14 +49,14 @@ The core open source library to help you develop and train ML models. Get starte
   
 **Download a package**
 ```
-     # Requires the latest pip
-      pip install --upgrade pip
+      # Requires the latest pip
+      $ pip install --upgrade pip
 
       # Current stable release for CPU and GPU
-      pip install tensorflow
+      $ pip install tensorflow
 
       # Or try the preview build (unstable)
-      pip install tf-nightly
+      $ pip install tf-nightly
 ```
 
 
@@ -79,13 +80,13 @@ Keras is compatible with: **Python 2.7-3.6.**
 **Install Keras from PyPI (recommended):**
 Note: These installation steps assume that you are on a Linux or Mac environment. If you are on Windows, you will need to remove sudo to run the commands below.
 ```
-   $sudo pip install keras
+   $ sudo pip install keras
 ```
 
 If you are using a virtualenv, you may want to avoid using sudo:
 
 ```
-   $pip install keras
+   $ pip install keras
 ```
 # Numpy
 **Install numpy from PyPI (recommended):**
