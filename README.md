@@ -3,6 +3,6 @@
  ## Technology Used:
  1. Python
  2. Deep Neural Networks
-   * Convolutional Neural Network
-   * LSTM
+     * Convolutional Neural Network
+     * LSTM
  3. Flask
