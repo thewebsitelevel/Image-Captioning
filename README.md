@@ -40,7 +40,7 @@ The core open source library to help you develop and train ML models. Get starte
 
 For further information [ Click here !!!](https://www.tensorflow.org/)
 
-**Install TensorFlow2 : **
+**Install TensorFlow2 :**
 
 **TensorFlow is tested and supported on the following 64-bit systems:**
   * Python 3.5–3.7
